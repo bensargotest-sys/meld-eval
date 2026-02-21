@@ -1,0 +1,17 @@
+You are evaluating two responses to a question. Determine which is better.
+
+CRITICAL: Do not score response length as quality. A concise, accurate response beats a long padded response.
+
+Question:
+{question}
+
+Response A:
+{response_a}
+
+Response B:
+{response_b}
+
+Evaluate on accuracy, reasoning quality, completeness, and clarity only.
+
+Respond with JSON only — no other text:
+{"winner": "A" or "B" or "tie", "confidence": 0.0-1.0, "reasoning": "one sentence"}

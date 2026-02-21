@@ -1,0 +1,30 @@
+nodes:
+  - id: meld-2
+    host: 147.93.72.73
+    port: 9377
+    model: xai/grok-3
+    operator: internal
+  - id: meld-3
+    host: 72.61.53.248
+    port: 9377
+    model: google/gemini-2.0-flash
+    operator: internal
+  - id: meld-4
+    host: 76.13.198.23
+    port: 9377
+    model: deepseek/deepseek-chat
+    operator: internal
+  - id: meld-5
+    host: 187.77.177.78
+    port: 9377
+    model: llama3.2:3b
+    type: local-ollama
+    operator: internal
+
+judge_models:
+  - id: judge-1
+    model: openai/gpt-4o
+  - id: judge-2
+    model: mistralai/mistral-large-latest
+  - id: judge-3
+    model: cohere/command-r-plus

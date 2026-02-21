@@ -14,8 +14,8 @@ const NODES = [
 ];
 
 async function fetchBalance(node) {
-  // Use /health endpoint (available on all nodes)
-  const res = await fetch(`http://${node.host}:${node.port}/health`, {
+  // Use /v1/health endpoint (available on all nodes)
+  const res = await fetch(`http://${node.host}:${node.port}/v1/health`, {
     signal: AbortSignal.timeout(5000),
   });
   if (!res.ok) throw new Error(`${node.id} returned ${res.status}`);

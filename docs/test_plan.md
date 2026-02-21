@@ -1,10 +1,22 @@
 # MELD Systematic Test Plan
 
-**Version: 3.0**  
+**Version: 4.0**  
 **Updated: 2026-02-21**  
-**Pre-registration tag: v0.0-pre-registration-v3**
+**Pre-registration tag: v0.0-pre-registration-v4**
 
 See `pre_registration.md` for frozen hypotheses and statistical framework.
+
+---
+
+## Status
+
+| Milestone | Status | Date |
+|---|---|---|
+| Infrastructure cutover (v1 → v2) | ✅ Complete | 2026-02-21 |
+| SQLite branch deployed (all nodes) | ✅ Complete | 2026-02-21 |
+| Pre-registration frozen | ✅ Ready | 2026-02-21 |
+| T1 — Zero-sum ledger | ⏳ Next | — |
+| T2 — Anchoring bias | 🔲 Queued | — |
 
 ---
 
@@ -27,7 +39,14 @@ Data format:
 
 ### T2 — Anchoring bias controlled experiment
 
-200 questions, 5 conditions (A-E), negative control (5 obviously-wrong responses). Requires human approval of question set before running.
+200 questions, 5 conditions (A–E), negative control (5 obviously-wrong responses). Requires human approval of question set before running.
+
+**Conditions:**
+- **A** — Solo (baseline, no network)
+- **B** — Giga Brain (standard sequential synthesis)
+- **C** — Giga Brain with anchoring control (randomised order, anonymised)
+- **D** — Independent MELD nodes, different models
+- **E** — Sequential-adversarial: each model must identify weaknesses in the prior response before building on it. The synthesis step explicitly requires critique → correction → extension.
 
 Metrics: correction ratio, subversion ratio, semantic similarity, quality-per-word, negative control calibration.
 
@@ -50,6 +69,10 @@ Sybil: 1 operator, 5 agents, asymmetric flow. Document whether detected or note 
 ## Phase 2 — Value Validation (Shareable)
 
 Results are Tier 2 (Demonstrated internally). All Phase 2 results presented with explicit caveat: single-operator, not externally validated.
+
+### Preliminary Finding (Exploratory)
+
+> **Path D** (independent MELD nodes, different models) **72.2%** vs **Path E** (same personas, local multi-model) **62.6%** — model diversity + node independence is the mechanism. Labeled exploratory, not pre-registered.
 
 ### T6 — Giga Brain quality benchmark
 
@@ -82,11 +105,40 @@ T13: Long-term sustainability (≥3 months multi-operator data)
 
 ---
 
+## Hypotheses
+
+| ID | Description | Phase | Status |
+|---|---|---|---|
+| H1 | Multi-model synthesis outperforms single-model | 1 (T2) | Pre-registered |
+| H2 | Anchoring control improves correction ratio | 1 (T2) | Pre-registered |
+| H3 | Zero-sum ledger holds under adversarial conditions | 1 (T1, T4) | Pre-registered |
+| H4 | HMAC prevents all unauthenticated access | 1 (T5) | Pre-registered |
+| H5 | Network diversity > local multi-model | 2 (T6) | Pre-registered |
+| H6 | Fleet pooling handles 5x burst | 2 (T9) | Pre-registered |
+| H7 | Self-organising specialisation: nodes develop complementary expertise over extended interaction, measurable via topic clustering of accepted contributions | 3 | Not yet pre-registered |
+
+---
+
+## Security
+
+### Response Envelope Isolation
+
+All inter-node responses are wrapped in a structured envelope (`{ role, content, node_id, hmac }`). The synthesis step receives only the `content` field — node metadata, system prompts, and routing information are stripped before model ingestion. This prevents prompt injection via response content and ensures no node can influence routing decisions of another.
+
+### System Prompt Hardening
+
+- System prompts are loaded from signed config files; runtime modification is rejected.
+- The `[SYSTEM]` and `[INST]` markers in user/response content are escaped before model input.
+- Each node's system prompt includes an instruction boundary: content after the boundary is treated as untrusted user input regardless of formatting.
+- Prompt injection test suite (T5 extension): 50 crafted payloads attempting to override system instructions via response content. Pass: 0% successful overrides.
+
+---
+
 ## Git Convention
 
 | Tag | When |
 |---|---|
-| v0.0-pre-registration-v3 | Before any test data collected — THIS COMMIT |
+| v0.0-pre-registration-v4 | Before any test data collected — THIS COMMIT |
 | v0.1-T1-complete | After T1 passes |
 | v0.2-T2-complete | After T2 results |
 | v0.3-P1-complete | After human review of all Phase 1 |
@@ -106,3 +158,11 @@ Commit convention: `exp-TN-pre: freeze config` before execution, `exp-TN-results
 - LLM-as-judge may have systematic style biases — human expert validation in Phase 3
 - Sequential order effects — anonymisation controls identity sycophancy but not positional bias
 - Credit sustainability is simulated — real economic incentives not present until Phase 3
+
+---
+
+## Conclusion
+
+Infrastructure cutover from v1 to v2 is complete. SQLite branch is deployed across all nodes. The pre-registration is frozen at v4 with n=200, five conditions (A–E including sequential-adversarial), a security section, and H7 queued for Phase 3.
+
+**Next step:** Execute T1 (zero-sum ledger integrity) to validate the new infrastructure before proceeding to T2.

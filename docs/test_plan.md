@@ -14,9 +14,10 @@ See `pre_registration.md` for frozen hypotheses and statistical framework.
 |---|---|---|
 | Infrastructure cutover (v1 → v2) | ✅ Complete | 2026-02-21 |
 | SQLite branch deployed (all nodes) | ✅ Complete | 2026-02-21 |
+| Response envelope isolation | ✅ Complete (45eed16) | 2026-02-21 |
 | Pre-registration frozen | ✅ Ready | 2026-02-21 |
-| T1 — Zero-sum ledger | ⏳ Next | — |
-| T2 — Anchoring bias | 🔲 Queued | — |
+| T1 — Zero-sum ledger | ✅ Passed (500/500, 0 violations) | 2026-02-21 |
+| T2 — Anchoring bias | ⏳ Next (awaiting approval) | — |
 
 ---
 
@@ -165,4 +166,4 @@ Commit convention: `exp-TN-pre: freeze config` before execution, `exp-TN-results
 
 Infrastructure cutover from v1 to v2 is complete. SQLite branch is deployed across all nodes. The pre-registration is frozen at v4 with n=200, five conditions (A–E including sequential-adversarial), a security section, and H7 queued for Phase 3.
 
-**Next step:** Execute T1 (zero-sum ledger integrity) to validate the new infrastructure before proceeding to T2.
+**Next step:** Execute T2 (anchoring bias controlled experiment). T1 passed — tag `v0.1-T1-complete` (SHA: 7c47c52). Requires human approval of question set.

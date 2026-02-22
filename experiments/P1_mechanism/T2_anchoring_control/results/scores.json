@@ -1,0 +1,160 @@
+{
+  "A_vs_B": {
+    "condition": "B",
+    "wins_baseline": 42,
+    "wins_condition": 14,
+    "ties": 405,
+    "inconsistent": 139,
+    "total_judgments": 600,
+    "win_rate_pct": 2.3,
+    "by_category": {
+      "reasoning": {
+        "a": 19,
+        "cond": 4,
+        "tie": 110,
+        "incon": 26
+      },
+      "analysis": {
+        "a": 3,
+        "cond": 2,
+        "tie": 91,
+        "incon": 39
+      },
+      "factual": {
+        "a": 15,
+        "cond": 0,
+        "tie": 96,
+        "incon": 33
+      },
+      "creative_synthesis": {
+        "a": 5,
+        "cond": 8,
+        "tie": 108,
+        "incon": 41
+      }
+    }
+  },
+  "A_vs_C": {
+    "condition": "C",
+    "wins_baseline": 125,
+    "wins_condition": 3,
+    "ties": 402,
+    "inconsistent": 70,
+    "total_judgments": 600,
+    "win_rate_pct": 0.5,
+    "by_category": {
+      "reasoning": {
+        "a": 39,
+        "cond": 0,
+        "tie": 106,
+        "incon": 14
+      },
+      "analysis": {
+        "a": 27,
+        "cond": 1,
+        "tie": 90,
+        "incon": 17
+      },
+      "factual": {
+        "a": 24,
+        "cond": 0,
+        "tie": 98,
+        "incon": 22
+      },
+      "creative_synthesis": {
+        "a": 35,
+        "cond": 2,
+        "tie": 108,
+        "incon": 17
+      }
+    }
+  },
+  "A_vs_D": {
+    "condition": "D",
+    "wins_baseline": 19,
+    "wins_condition": 13,
+    "ties": 410,
+    "inconsistent": 158,
+    "total_judgments": 600,
+    "win_rate_pct": 2.2,
+    "by_category": {
+      "reasoning": {
+        "a": 8,
+        "cond": 1,
+        "tie": 115,
+        "incon": 35
+      },
+      "analysis": {
+        "a": 3,
+        "cond": 1,
+        "tie": 90,
+        "incon": 41
+      },
+      "factual": {
+        "a": 5,
+        "cond": 3,
+        "tie": 97,
+        "incon": 39
+      },
+      "creative_synthesis": {
+        "a": 3,
+        "cond": 8,
+        "tie": 108,
+        "incon": 43
+      }
+    }
+  },
+  "A_vs_E": {
+    "condition": "E",
+    "wins_baseline": 126,
+    "wins_condition": 3,
+    "ties": 400,
+    "inconsistent": 71,
+    "total_judgments": 600,
+    "win_rate_pct": 0.5,
+    "by_category": {
+      "reasoning": {
+        "a": 36,
+        "cond": 1,
+        "tie": 106,
+        "incon": 16
+      },
+      "analysis": {
+        "a": 27,
+        "cond": 0,
+        "tie": 90,
+        "incon": 18
+      },
+      "factual": {
+        "a": 38,
+        "cond": 0,
+        "tie": 96,
+        "incon": 10
+      },
+      "creative_synthesis": {
+        "a": 25,
+        "cond": 2,
+        "tie": 108,
+        "incon": 27
+      }
+    }
+  },
+  "_meta": {
+    "test": "T2",
+    "started_at": "2026-02-22T12:07:47.370738+00:00",
+    "completed_at": "2026-02-22T12:33:11.713920+00:00",
+    "n_questions": 200,
+    "judge_models": [
+      "openai/gpt-4o",
+      "mistralai/mistral-large-latest",
+      "cohere/command-r-plus"
+    ],
+    "comparisons": [
+      "A_vs_B",
+      "A_vs_C",
+      "A_vs_D",
+      "A_vs_E"
+    ],
+    "total_judgments": 2400
+  }
+}

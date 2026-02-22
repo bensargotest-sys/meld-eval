@@ -1,0 +1,230 @@
+{"question": "A farmer has 17 sheep. All but 9 die. How many are left?", "category": "reasoning"}
+{"question": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?", "category": "reasoning"}
+{"question": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?", "category": "reasoning"}
+{"question": "Three friends split a $30 hotel room. The manager returns $5, the bellboy keeps $2 and gives $1 back to each friend. Each friend paid $9 (totaling $27) plus the bellboy's $2 makes $29. Where's the missing dollar?", "category": "reasoning"}
+{"question": "You're in a race and pass the person in second place. What position are you in now?", "category": "reasoning"}
+{"question": "A plane crashes on the border of the US and Canada. Where do you bury the survivors?", "category": "reasoning"}
+{"question": "If you have a 5-liter jug and a 3-liter jug, how do you measure exactly 4 liters of water?", "category": "reasoning"}
+{"question": "What is the next number in the sequence: 1, 1, 2, 3, 5, 8, 13, ...?", "category": "reasoning"}
+{"question": "A clock strikes 6 in 5 seconds. How long does it take to strike 12?", "category": "reasoning"}
+{"question": "You have 12 identical-looking balls. One is heavier. Using a balance scale, what is the minimum number of weighings to find the heavy ball?", "category": "reasoning"}
+{"question": "If all Bloops are Razzies and all Razzies are Lazzies, are all Bloops definitely Lazzies?", "category": "reasoning"}
+{"question": "A lily pad doubles in size every day. If it takes 48 days to cover the entire lake, how many days does it take to cover half the lake?", "category": "reasoning"}
+{"question": "You have two ropes that each take exactly one hour to burn, but they burn at uneven rates. How do you measure exactly 45 minutes?", "category": "reasoning"}
+{"question": "In a room of 23 people, what is the approximate probability that two people share a birthday?", "category": "reasoning"}
+{"question": "A snail climbs 3 feet up a wall during the day but slides back 2 feet at night. The wall is 30 feet tall. How many days does it take to reach the top?", "category": "reasoning"}
+{"question": "If you flip a fair coin 10 times and get heads every time, what is the probability of getting heads on the 11th flip?", "category": "reasoning"}
+{"question": "Three switches outside a room control three light bulbs inside. You can only enter the room once. How do you determine which switch controls which bulb?", "category": "reasoning"}
+{"question": "A train leaves Station A at 60 mph. Another leaves Station B at 40 mph toward A. Stations are 200 miles apart. Where do they meet?", "category": "reasoning"}
+{"question": "You have 8 identical coins and a balance scale. One coin is counterfeit and lighter. Find it in 2 weighings.", "category": "reasoning"}
+{"question": "If the day after tomorrow is two days before Thursday, what day is it today?", "category": "reasoning"}
+{"question": "A man is looking at a photograph. Someone asks who it is. He replies: 'Brothers and sisters I have none, but that man's father is my father's son.' Who is in the photograph?", "category": "reasoning"}
+{"question": "You're given two envelopes, each containing money. One has twice as much as the other. You pick one and see $100. Should you switch?", "category": "reasoning"}
+{"question": "Why can't a valid argument have true premises and a false conclusion?", "category": "reasoning"}
+{"question": "If A implies B, and B implies C, does not-C imply not-A? Explain your reasoning.", "category": "reasoning"}
+{"question": "A ship has a ladder with rungs 1 foot apart. At low tide, 6 rungs are above water. The tide rises 3 feet. How many rungs are above water?", "category": "reasoning"}
+{"question": "What logical fallacy is present in: 'We've always done it this way, so it must be the best approach'?", "category": "reasoning"}
+{"question": "Explain the Monty Hall problem and why switching doors gives you a 2/3 chance of winning.", "category": "reasoning"}
+{"question": "Can an omnipotent being create a stone so heavy that even they cannot lift it? Analyze the logical structure.", "category": "reasoning"}
+{"question": "If you have a 100-story building and 2 glass balls, what's the most efficient strategy to find the highest safe floor to drop them from?", "category": "reasoning"}
+{"question": "A king wants to test his advisor's loyalty. He tells 3 advisors: 'I will place either a white or black hat on each of your heads. You cannot see your own hat.' He places white hats on all three. The first two say they don't know their hat color. The third says 'My hat is white.' How?", "category": "reasoning"}
+{"question": "Explain why correlation does not imply causation using a concrete example.", "category": "reasoning"}
+{"question": "You're on a game show with 100 doors. 99 have goats, 1 has a car. You pick door 1. The host opens 98 doors showing goats. Should you switch to the remaining door?", "category": "reasoning"}
+{"question": "What is the flaw in Pascal's Wager as an argument for belief in God?", "category": "reasoning"}
+{"question": "If I say 'This statement is false,' is the statement true or false? What does this tell us about self-reference?", "category": "reasoning"}
+{"question": "A doctor tells you a test for a disease is 99% accurate. The disease affects 1 in 10,000 people. You test positive. What's the actual probability you have the disease?", "category": "reasoning"}
+{"question": "Explain the difference between deductive and inductive reasoning with an example of each.", "category": "reasoning"}
+{"question": "Five pirates must divide 100 gold coins. The most senior pirate proposes a split; if 50% or more agree, it's accepted. Otherwise, the proposer is thrown overboard. What does the most senior pirate propose?", "category": "reasoning"}
+{"question": "Is it possible for something to be legal but unethical? Provide an example and reasoning.", "category": "reasoning"}
+{"question": "Explain the sunk cost fallacy and give a real-world example where people commonly fall victim to it.", "category": "reasoning"}
+{"question": "A set contains all sets that don't contain themselves. Does this set contain itself? Explain Russell's Paradox.", "category": "reasoning"}
+{"question": "Why is 'No true Scotsman' considered a logical fallacy?", "category": "reasoning"}
+{"question": "You know that exactly one of three people is lying. Person A says 'I didn't do it.' Person B says 'A is telling the truth.' Person C says 'B is lying.' Who is the liar?", "category": "reasoning"}
+{"question": "Explain why the gambler's fallacy is a fallacy using probability theory.", "category": "reasoning"}
+{"question": "If every part of a ship is gradually replaced, is it still the same ship? Analyze the Ship of Theseus problem.", "category": "reasoning"}
+{"question": "What is the difference between necessary and sufficient conditions? Give examples.", "category": "reasoning"}
+{"question": "A student argues: 'Einstein failed math, so grades don't matter.' Identify all the reasoning errors.", "category": "reasoning"}
+{"question": "Explain the trolley problem and why it creates a genuine ethical dilemma.", "category": "reasoning"}
+{"question": "Why is anecdotal evidence generally considered weaker than statistical evidence?", "category": "reasoning"}
+{"question": "A town has two barbers. One has a neat haircut, the other a messy one. Which should you go to and why?", "category": "reasoning"}
+{"question": "Explain the prisoner's dilemma and why rational self-interest leads to a worse outcome for both players.", "category": "reasoning"}
+{"question": "If 10% of cars are red and red cars get 20% more tickets, does that prove police bias against red cars? Why or why not?", "category": "reasoning"}
+{"question": "What is survivorship bias and how does it distort our understanding of success?", "category": "reasoning"}
+{"question": "Explain why 'absence of evidence is not evidence of absence' \u2014 and when this claim itself can be misleading.", "category": "reasoning"}
+{"question": "A professor claims no students failed the exam. Is this falsifiable? How would you test it?", "category": "reasoning"}
+{"question": "What's wrong with the argument: 'We should legalize X because prohibition doesn't work, as shown by alcohol prohibition'?", "category": "reasoning"}
+{"question": "Explain the concept of diminishing returns and give an example from economics and from daily life.", "category": "reasoning"}
+{"question": "Why is the ecological fallacy problematic when drawing conclusions about individuals from group data?", "category": "reasoning"}
+{"question": "If a tree falls in a forest and no one hears it, does it make a sound? Analyze the epistemological and physical dimensions.", "category": "reasoning"}
+{"question": "What is the mechanism by which CRISPR-Cas9 edits genes?", "category": "factual"}
+{"question": "Explain the difference between TCP and UDP protocols.", "category": "factual"}
+{"question": "What caused the 2008 financial crisis? List the key factors.", "category": "factual"}
+{"question": "How does a quantum computer differ from a classical computer at the hardware level?", "category": "factual"}
+{"question": "What is the significance of the Higgs boson discovery?", "category": "factual"}
+{"question": "Explain how mRNA vaccines work, step by step.", "category": "factual"}
+{"question": "What is the difference between machine learning, deep learning, and artificial intelligence?", "category": "factual"}
+{"question": "How does the carbon cycle work and why is it important for climate?", "category": "factual"}
+{"question": "What were the primary causes and consequences of the French Revolution?", "category": "factual"}
+{"question": "Explain how blockchain consensus mechanisms work, comparing Proof of Work and Proof of Stake.", "category": "factual"}
+{"question": "What is general relativity and how does it differ from special relativity?", "category": "factual"}
+{"question": "How does the human immune system respond to a novel pathogen?", "category": "factual"}
+{"question": "What is the Standard Model of particle physics and what are its limitations?", "category": "factual"}
+{"question": "Explain the process of photosynthesis at the molecular level.", "category": "factual"}
+{"question": "What were the key technological innovations of the Industrial Revolution?", "category": "factual"}
+{"question": "How does natural selection drive evolution? Give a specific example.", "category": "factual"}
+{"question": "What is the difference between fission and fusion nuclear reactions?", "category": "factual"}
+{"question": "Explain how GPS satellites determine your position on Earth.", "category": "factual"}
+{"question": "What is the significance of G\u00f6del's incompleteness theorems?", "category": "factual"}
+{"question": "How does the Federal Reserve influence the economy through monetary policy?", "category": "factual"}
+{"question": "What is the difference between Type 1 and Type 2 diabetes at the cellular level?", "category": "factual"}
+{"question": "Explain the double-slit experiment and its implications for quantum mechanics.", "category": "factual"}
+{"question": "What is the significance of the Rosetta Stone in understanding ancient history?", "category": "factual"}
+{"question": "How do neural networks learn through backpropagation?", "category": "factual"}
+{"question": "What is the microbiome and how does it affect human health?", "category": "factual"}
+{"question": "Explain the differences between civil law and common law legal systems.", "category": "factual"}
+{"question": "What is plate tectonics and what evidence supports the theory?", "category": "factual"}
+{"question": "How does HTTPS encryption protect data in transit?", "category": "factual"}
+{"question": "What were the causes and consequences of the fall of the Roman Empire?", "category": "factual"}
+{"question": "Explain the Krebs cycle and its role in cellular respiration.", "category": "factual"}
+{"question": "What is the Copenhagen interpretation of quantum mechanics?", "category": "factual"}
+{"question": "How do vaccines achieve herd immunity and what threshold is typically needed?", "category": "factual"}
+{"question": "What is the difference between GDP, GNP, and PPP as economic measures?", "category": "factual"}
+{"question": "Explain how CMOS transistors work at the silicon level.", "category": "factual"}
+{"question": "What is epigenetics and how can environmental factors affect gene expression?", "category": "factual"}
+{"question": "How did the Bretton Woods system shape the post-WWII global economy?", "category": "factual"}
+{"question": "What is the halting problem and why is it significant in computer science?", "category": "factual"}
+{"question": "Explain the greenhouse effect and the role of different greenhouse gases.", "category": "factual"}
+{"question": "What is the significance of the discovery of DNA's double helix structure?", "category": "factual"}
+{"question": "How does a compiler differ from an interpreter?", "category": "factual"}
+{"question": "What is dark matter and what evidence suggests its existence?", "category": "factual"}
+{"question": "Explain the process of continental drift and how it was validated.", "category": "factual"}
+{"question": "What are prions and how do they cause disease?", "category": "factual"}
+{"question": "How does the electoral college system work in US presidential elections?", "category": "factual"}
+{"question": "What is the Turing test and what are its limitations as a measure of intelligence?", "category": "factual"}
+{"question": "Explain how antibiotics work and why antibiotic resistance develops.", "category": "factual"}
+{"question": "What were the key innovations of the Green Revolution in agriculture?", "category": "factual"}
+{"question": "How does optical fiber transmit data using light?", "category": "factual"}
+{"question": "What is the significance of the Treaty of Westphalia in international relations?", "category": "factual"}
+{"question": "Explain the difference between monetary and fiscal policy.", "category": "factual"}
+{"question": "What is CERN and what has it contributed to physics?", "category": "factual"}
+{"question": "How do enzymes catalyze biochemical reactions?", "category": "factual"}
+{"question": "What is the P vs NP problem and why does it matter?", "category": "factual"}
+{"question": "Explain how tides are caused by gravitational forces.", "category": "factual"}
+{"question": "What are the main differences between Sunni and Shia Islam historically?", "category": "factual"}
+{"question": "How does a transformer architecture work in modern AI language models?", "category": "factual"}
+{"question": "What is the anthropic principle in cosmology?", "category": "factual"}
+{"question": "Design a city of 100,000 people optimized for human happiness. What would you prioritize?", "category": "creative_synthesis"}
+{"question": "Write a compelling opening paragraph for a novel set in a world where gravity reverses every 12 hours.", "category": "creative_synthesis"}
+{"question": "If you could combine any two existing technologies to create something new, what would you combine and what would it do?", "category": "creative_synthesis"}
+{"question": "Create a metaphor that explains machine learning to a 10-year-old.", "category": "creative_synthesis"}
+{"question": "Design a new board game that teaches economic principles. Describe the rules and mechanics.", "category": "creative_synthesis"}
+{"question": "Write a short dialogue between Socrates and a modern AI about the nature of knowledge.", "category": "creative_synthesis"}
+{"question": "Propose a realistic plan to make a mid-sized city carbon neutral by 2040.", "category": "creative_synthesis"}
+{"question": "Imagine an alien civilization that evolved underwater. How would their technology differ from ours?", "category": "creative_synthesis"}
+{"question": "Design a curriculum for a 'School of Critical Thinking' \u2014 what subjects would you teach and how?", "category": "creative_synthesis"}
+{"question": "Write a poem that captures the experience of debugging code at 3 AM.", "category": "creative_synthesis"}
+{"question": "Propose a new economic system that addresses the flaws of both capitalism and socialism.", "category": "creative_synthesis"}
+{"question": "Create a thought experiment that illustrates the concept of emergence.", "category": "creative_synthesis"}
+{"question": "Design a communication protocol for first contact with an alien intelligence.", "category": "creative_synthesis"}
+{"question": "Write a persuasive essay arguing that failure is more valuable than success.", "category": "creative_synthesis"}
+{"question": "Invent a new sport that could be played in zero gravity. Describe the rules.", "category": "creative_synthesis"}
+{"question": "Propose a system for measuring and comparing the 'health' of different democracies.", "category": "creative_synthesis"}
+{"question": "Write a short story (200 words) where the twist ending recontextualizes everything before it.", "category": "creative_synthesis"}
+{"question": "Design a social media platform that optimizes for meaningful connection rather than engagement.", "category": "creative_synthesis"}
+{"question": "Create an analogy that explains the concept of recursion to someone with no programming background.", "category": "creative_synthesis"}
+{"question": "Propose a method for teaching ethics to an artificial general intelligence.", "category": "creative_synthesis"}
+{"question": "Design a museum exhibit about the history of human communication, from cave paintings to AI.", "category": "creative_synthesis"}
+{"question": "Write a letter from the year 2100 describing what daily life is like.", "category": "creative_synthesis"}
+{"question": "Create a framework for evaluating whether a new technology is net-positive for humanity.", "category": "creative_synthesis"}
+{"question": "Design a restaurant concept that combines cuisine from two cultures that rarely intersect.", "category": "creative_synthesis"}
+{"question": "Propose a new holiday that celebrates an underappreciated aspect of human achievement.", "category": "creative_synthesis"}
+{"question": "Write a dialogue between a tree and a skyscraper about their different perspectives on time.", "category": "creative_synthesis"}
+{"question": "Design a voting system that better captures voter preferences than first-past-the-post.", "category": "creative_synthesis"}
+{"question": "Create a children's story that teaches the concept of compound interest.", "category": "creative_synthesis"}
+{"question": "Propose a realistic Mars colony governance structure for 1,000 inhabitants.", "category": "creative_synthesis"}
+{"question": "Write the opening scene of a movie where music has been forgotten by humanity.", "category": "creative_synthesis"}
+{"question": "Design a product that helps elderly people stay connected with technology without frustration.", "category": "creative_synthesis"}
+{"question": "Create a mental model that helps people make better decisions under uncertainty.", "category": "creative_synthesis"}
+{"question": "Propose an alternative to the current patent system that better balances innovation and access.", "category": "creative_synthesis"}
+{"question": "Write a haiku that captures the essence of entropy.", "category": "creative_synthesis"}
+{"question": "Design a neighborhood that encourages spontaneous community interaction.", "category": "creative_synthesis"}
+{"question": "Create a rubric for evaluating the quality of an apology.", "category": "creative_synthesis"}
+{"question": "Propose a way to restructure the education system around project-based learning.", "category": "creative_synthesis"}
+{"question": "Write a compelling pitch for a startup that solves a problem nobody has articulated yet.", "category": "creative_synthesis"}
+{"question": "Design a personal development framework based on the scientific method.", "category": "creative_synthesis"}
+{"question": "Create a taxonomy of different types of creativity and their characteristics.", "category": "creative_synthesis"}
+{"question": "Propose a new metric for national well-being that goes beyond GDP.", "category": "creative_synthesis"}
+{"question": "Write a monologue from the perspective of the last human-driven car.", "category": "creative_synthesis"}
+{"question": "Design a conflict resolution protocol for international disputes that doesn't involve sanctions or military force.", "category": "creative_synthesis"}
+{"question": "Create an exercise that helps people recognize and overcome confirmation bias.", "category": "creative_synthesis"}
+{"question": "Propose a system for preserving human knowledge that could survive a civilizational collapse.", "category": "creative_synthesis"}
+{"question": "Write a recipe for a dish that represents the concept of 'balance' using exactly 5 ingredients.", "category": "creative_synthesis"}
+{"question": "Design an app that helps people have better conversations with those they disagree with.", "category": "creative_synthesis"}
+{"question": "Create a framework for deciding when to automate a process and when to keep humans in the loop.", "category": "creative_synthesis"}
+{"question": "Propose an experiment to test whether AI-generated art can be as emotionally moving as human-created art.", "category": "creative_synthesis"}
+{"question": "Write a toast at a wedding that incorporates game theory.", "category": "creative_synthesis"}
+{"question": "Design a public park that serves as both recreation space and ecological habitat.", "category": "creative_synthesis"}
+{"question": "Create a decision matrix for choosing between specialization and generalization in a career.", "category": "creative_synthesis"}
+{"question": "Propose a new form of government that leverages collective intelligence.", "category": "creative_synthesis"}
+{"question": "Write a bedtime story for adults that helps with existential anxiety.", "category": "creative_synthesis"}
+{"question": "Design a reward system for a company that doesn't rely on monetary incentives.", "category": "creative_synthesis"}
+{"question": "Create a thought experiment that challenges the assumption that more choice is always better.", "category": "creative_synthesis"}
+{"question": "Propose a way to make academic research more accessible and useful to the general public.", "category": "creative_synthesis"}
+{"question": "Write a philosophical argument for or against the existence of free will in 200 words.", "category": "creative_synthesis"}
+{"question": "Compare and contrast the leadership styles of Abraham Lincoln and Winston Churchill during wartime.", "category": "analysis"}
+{"question": "Analyze the factors that led to Silicon Valley becoming the world's technology hub. Could it be replicated elsewhere?", "category": "analysis"}
+{"question": "Evaluate the strengths and weaknesses of remote work vs office work for knowledge workers.", "category": "analysis"}
+{"question": "Analyze why some countries industrialized faster than others in the 19th century.", "category": "analysis"}
+{"question": "Compare the ethical frameworks of utilitarianism and deontology. When does each fail?", "category": "analysis"}
+{"question": "Analyze the impact of social media on democratic institutions in the last decade.", "category": "analysis"}
+{"question": "Evaluate the effectiveness of different approaches to reducing income inequality.", "category": "analysis"}
+{"question": "Analyze the trade-offs between privacy and security in the digital age.", "category": "analysis"}
+{"question": "Compare the causes and responses to the 1918 flu pandemic and COVID-19.", "category": "analysis"}
+{"question": "Analyze why some startups succeed while others with similar ideas fail.", "category": "analysis"}
+{"question": "Evaluate the argument that automation will lead to mass unemployment vs the argument that it creates new jobs.", "category": "analysis"}
+{"question": "Analyze the geopolitical implications of rare earth mineral supply chains.", "category": "analysis"}
+{"question": "Compare the strengths and limitations of renewable energy sources: solar, wind, nuclear, and hydroelectric.", "category": "analysis"}
+{"question": "Analyze the psychological factors that contribute to groupthink in organizations.", "category": "analysis"}
+{"question": "Evaluate the effectiveness of the war on drugs from multiple perspectives.", "category": "analysis"}
+{"question": "Analyze the relationship between economic freedom and political freedom across different countries.", "category": "analysis"}
+{"question": "Compare the approaches to AI regulation in the US, EU, and China.", "category": "analysis"}
+{"question": "Analyze the factors that determine whether a revolution succeeds or fails.", "category": "analysis"}
+{"question": "Evaluate the long-term sustainability of subscription-based business models.", "category": "analysis"}
+{"question": "Analyze the impact of urbanization on mental health, supported by evidence.", "category": "analysis"}
+{"question": "Compare different theories of consciousness: functionalism, physicalism, and dualism.", "category": "analysis"}
+{"question": "Analyze the economic and social effects of universal basic income trials worldwide.", "category": "analysis"}
+{"question": "Evaluate the argument for and against intellectual property in the digital age.", "category": "analysis"}
+{"question": "Analyze the factors that make some languages die while others spread globally.", "category": "analysis"}
+{"question": "Compare the effectiveness of different educational philosophies: Montessori, Waldorf, traditional, and unschooling.", "category": "analysis"}
+{"question": "Analyze the network effects that create natural monopolies in technology markets.", "category": "analysis"}
+{"question": "Evaluate the claim that diversity in teams leads to better outcomes. What does the evidence show?", "category": "analysis"}
+{"question": "Analyze the historical pattern of technological disruption and societal adaptation.", "category": "analysis"}
+{"question": "Compare the healthcare systems of the US, UK, Singapore, and Germany on cost, access, and outcomes.", "category": "analysis"}
+{"question": "Analyze why conspiracy theories spread and what makes them psychologically appealing.", "category": "analysis"}
+{"question": "Evaluate the effectiveness of carbon pricing mechanisms vs direct regulation for emissions reduction.", "category": "analysis"}
+{"question": "Analyze the role of central bank independence in maintaining economic stability.", "category": "analysis"}
+{"question": "Compare the philosophical approaches to animal rights: Singer, Regan, and Francione.", "category": "analysis"}
+{"question": "Analyze the impact of algorithmic recommendation systems on cultural diversity.", "category": "analysis"}
+{"question": "Evaluate whether space exploration is a worthwhile investment for humanity given current global challenges.", "category": "analysis"}
+{"question": "Analyze the factors that contribute to trust in institutions and why trust has declined.", "category": "analysis"}
+{"question": "Compare agile vs waterfall software development methodologies: when is each appropriate?", "category": "analysis"}
+{"question": "Analyze the second-order effects of extending human lifespan to 150+ years.", "category": "analysis"}
+{"question": "Evaluate the argument that economic growth is incompatible with environmental sustainability.", "category": "analysis"}
+{"question": "Analyze why prediction markets often outperform expert forecasts.", "category": "analysis"}
+{"question": "Compare the innovation ecosystems of universities, corporate R&D labs, and startups.", "category": "analysis"}
+{"question": "Analyze the impact of colonialism on current economic disparities between nations.", "category": "analysis"}
+{"question": "Evaluate the effectiveness of international climate agreements from Kyoto to Paris.", "category": "analysis"}
+{"question": "Analyze the relationship between media concentration and information quality.", "category": "analysis"}
+{"question": "Compare different approaches to criminal justice: punitive, rehabilitative, and restorative.", "category": "analysis"}
+{"question": "Analyze the factors that determine whether a technology is adopted by mainstream users.", "category": "analysis"}
+{"question": "Evaluate the risks and benefits of gain-of-function research in virology.", "category": "analysis"}
+{"question": "Analyze how cognitive biases affect investment decisions and market behavior.", "category": "analysis"}
+{"question": "Compare the approaches to immigration policy across developed nations and their outcomes.", "category": "analysis"}
+{"question": "Analyze the impact of the printing press, radio, television, and internet on political power structures.", "category": "analysis"}
+{"question": "Evaluate the case for and against breaking up large technology companies.", "category": "analysis"}
+{"question": "Analyze why some peace agreements last while others collapse.", "category": "analysis"}
+{"question": "Compare different models of universal healthcare coverage and their trade-offs.", "category": "analysis"}
+{"question": "Analyze the factors that make scientific replication crises more common in some fields.", "category": "analysis"}
+{"question": "Evaluate the effectiveness of economic sanctions as a foreign policy tool.", "category": "analysis"}
+{"question": "Analyze the relationship between income inequality and social mobility across OECD countries.", "category": "analysis"}
+{"question": "Compare the environmental impact of different protein sources: beef, chicken, fish, insects, and plant-based.", "category": "analysis"}

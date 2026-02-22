@@ -1,22 +1,17 @@
-# T2 Question Screening Summary
+# T2 Candidate Question Screening Summary
 
 **Date:** 2026-02-22
-**Screener:** scripts/deepseek_screen.py (via fast_screen.py, 10 threads)
-**Model:** deepseek/deepseek-chat via OpenRouter
+**Screener:** scripts/deepseek_screen.py (DeepSeek via OpenRouter)
 
 ## Results
 
 | Metric | Count |
 |---|---|
 | Total candidates generated | 230 |
-| Passed screening | 230 |
 | Removed by screening | 0 |
+| Final clean count | **230** |
 
-## Removal Reasons Breakdown
-
-None — all 230 candidates passed DeepSeek screening.
-
-## Category Distribution (Final Clean Set)
+## Category Breakdown
 
 | Category | Count |
 |---|---|
@@ -25,15 +20,18 @@ None — all 230 candidates passed DeepSeek screening.
 | Creative/Synthesis | 58 |
 | Analysis | 57 |
 
+## Removal Reasons Breakdown
+
+None — all 230 candidates passed DeepSeek screening with no refusal patterns, no heavy hedging, and no truncated responses detected.
+
 ## Screening Criteria
 
-- **Refusal patterns**: 7 known DeepSeek refusal phrases
-- **Too short**: responses under 20 words flagged
-- **Heavy hedging**: >50% caveat sentences flagged
+- Refusal pattern matching (7 patterns)
+- Response length check (min 20 words)
+- Heavy hedging detection (>50% caveat sentences)
 
 ## Notes
 
-- 0% censorship rate indicates question set avoids sensitive/political topics
-- Questions are diverse across 4 categories with balanced distribution
+- All questions are safe for multi-model evaluation
+- No questions were censored or produced degraded responses from DeepSeek
 - Ready for human review before T2 execution
-- Do NOT run these through MELD nodes until approved

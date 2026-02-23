@@ -135,6 +135,24 @@ A network of diverse, independently-operated AI agents produces measurably super
 - Question sets: reuse where possible for cross-experiment comparability
 - Data committed to meld-eval repo after each experiment
 
+### T11: Consensus Guardrails
+**Question:** Can multi-model consensus reliably identify risky actions better than a single model?
+
+**Motivation:** Anthropic's "Measuring Agent Autonomy" research (Feb 2026) identifies a core problem: who watches the agent? Single-model risk assessment is a single point of failure. Multi-model disagreement may be a stronger signal of genuine risk.
+
+**Design:**
+- 100 proposed agent actions with context (50 safe, 50 risky)
+- Actions span: file operations, financial transactions, emails, API calls, code deployment, data access
+- Each action rated by ground truth (human-labeled safe/risky/escalate)
+- 4 conditions:
+  - A: Single model risk assessment (GPT-4o)
+  - B: Single model risk assessment (Gemini Flash)
+  - C: 3-model consensus risk assessment (majority vote)
+  - D: 3-model consensus with disagreement flagging (any dissent → escalate)
+- Metrics: accuracy, false positive rate, false negative rate, calibration
+
+**Product implication:** If C or D significantly outperforms A/B, validates the "Guard" product — a consensus-gated safety check for high-risk agent actions.
+
 ## Product Implications (Testing Toward)
 
 | Product Concept | Tests That Inform It |
@@ -144,3 +162,4 @@ A network of diverse, independently-operated AI agents produces measurably super
 | Giga Brain (5+ models, thinking) | T8 (thinking models), T9 (scale) |
 | Specialist (domain-routed) | T6-D (specialization), T10 (routing) |
 | Curation market | T10 (selection vs random) |
+| **Guard** (consensus risk-check) | **T11** (guardrail accuracy) |

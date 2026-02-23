@@ -1,0 +1,50 @@
+{
+  "wins_a": 446,
+  "wins_b": 645,
+  "ties": 108,
+  "errors": 0,
+  "total": 1200,
+  "win_rate_b_pct": 53.8,
+  "win_rate_a_pct": 37.2,
+  "by_judge": {
+    "openai/gpt-4o": {
+      "synth4o": 194,
+      "A": 150,
+      "tie": 56
+    },
+    "google/gemini-2.0-flash-001": {
+      "synth4o": 219,
+      "A": 176,
+      "tie": 5
+    },
+    "qwen/qwen-2.5-72b-instruct": {
+      "synth4o": 232,
+      "A": 120,
+      "tie": 47,
+      "tle": 1
+    }
+  },
+  "by_category": {
+    "reasoning": {
+      "synth4o": 155,
+      "A": 104,
+      "tie": 58,
+      "tle": 1
+    },
+    "analysis": {
+      "A": 104,
+      "synth4o": 151,
+      "tie": 15
+    },
+    "factual": {
+      "A": 101,
+      "synth4o": 166,
+      "tie": 21
+    },
+    "creative_synthesis": {
+      "A": 137,
+      "synth4o": 173,
+      "tie": 14
+    }
+  }
+}

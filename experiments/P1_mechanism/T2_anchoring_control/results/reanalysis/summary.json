@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "started": "2026-02-22T14:53:50.253777+00:00",
+    "completed": "2026-02-22T15:14:21.427885+00:00",
+    "n_questions": 200,
+    "judges": [
+      "openai/gpt-4o",
+      "google/gemini-2.0-flash-001",
+      "qwen/qwen-2.5-72b-instruct"
+    ]
+  },
+  "experiments": {
+    "access_grok3": {
+      "wins_a": 468,
+      "wins_b": 654,
+      "ties": 78,
+      "errors": 0,
+      "total": 1200,
+      "win_rate_b_pct": 54.5,
+      "win_rate_a_pct": 39.0,
+      "by_judge": {
+        "openai/gpt-4o": {
+          "A": 161,
+          "grok3": 185,
+          "tie": 54
+        },
+        "google/gemini-2.0-flash-001": {
+          "A": 120,
+          "grok3": 279,
+          "tie": 1
+        },
+        "qwen/qwen-2.5-72b-instruct": {
+          "grok3": 190,
+          "tie": 23,
+          "A": 187
+        }
+      },
+      "by_category": {
+        "creative_synthesis": {
+          "A": 118,
+          "grok3": 196,
+          "tie": 10
+        },
+        "reasoning": {
+          "tie": 52,
+          "grok3": 148,
+          "A": 118
+        },
+        "analysis": {
+          "A": 118,
+          "grok3": 147,
+          "tie": 5
+        },
+        "factual": {
+          "A": 114,
+          "grok3": 163,
+          "tie": 11
+        }
+      }
+    },
+    "access_gemini": {
+      "wins_a": 563,
+      "wins_b": 571,
+      "ties": 65,
+      "errors": 0,
+      "total": 1200,
+      "win_rate_b_pct": 47.6,
+      "win_rate_a_pct": 46.9,
+      "by_judge": {
+        "openai/gpt-4o": {
+          "A": 213,
+          "tie": 42,
+          "gemini": 145
+        },
+        "google/gemini-2.0-flash-001": {
+          "A": 154,
+          "gemini": 245,
+          "tie": 1
+        },
+        "qwen/qwen-2.5-72b-instruct": {
+          "A": 196,
+          "gemini": 181,
+          " tie": 1,
+          "tie": 22
+        }
+      },
+      "by_category": {
+        "reasoning": {
+          "A": 123,
+          "gemini": 158,
+          "tie": 36,
+          " tie": 1
+        },
+        "analysis": {
+          "A": 153,
+          "gemini": 110,
+          "tie": 7
+        },
+        "factual": {
+          "A": 142,
+          "gemini": 138,
+          "tie": 8
+        },
+        "creative_synthesis": {
+          "A": 145,
+          "gemini": 165,
+          "tie": 14
+        }
+      }
+    },
+    "access_deepseek": {
+      "wins_a": 498,
+      "wins_b": 641,
+      "ties": 61,
+      "errors": 0,
+      "total": 1200,
+      "win_rate_b_pct": 53.4,
+      "win_rate_a_pct": 41.5,
+      "by_judge": {
+        "openai/gpt-4o": {
+          "tie": 26,
+          "deepseek": 189,
+          "A": 185
+        },
+        "google/gemini-2.0-flash-001": {
+          "A": 164,
+          "deepseek": 235,
+          "tie": 1
+        },
+        "qwen/qwen-2.5-72b-instruct": {
+          "deepseek": 217,
+          "A": 149,
+          "tie": 34
+        }
+      },
+      "by_category": {
+        "reasoning": {
+          "tie": 26,
+          "deepseek": 137,
+          "A": 155
+        },
+        "factual": {
+          "A": 105,
+          "deepseek": 168,
+          "tie": 15
+        },
+        "analysis": {
+          "A": 112,
+          "deepseek": 147,
+          "tie": 11
+        },
+        "creative_synthesis": {
+          "A": 126,
+          "deepseek": 189,
+          "tie": 9
+        }
+      }
+    },
+    "diversity_best_of_3": {
+      "wins_a": 520,
+      "wins_b": 618,
+      "ties": 62,
+      "errors": 0,
+      "total": 1200,
+      "win_rate_b_pct": 51.5,
+      "win_rate_a_pct": 43.3,
+      "by_judge": {
+        "openai/gpt-4o": {
+          "best3": 176,
+          "A": 188,
+          "tie": 36
+        },
+        "google/gemini-2.0-flash-001": {
+          "A": 129,
+          "best3": 270,
+          "tie": 1
+        },
+        "qwen/qwen-2.5-72b-instruct": {
+          "best3": 172,
+          "A": 203,
+          "tie": 25
+        }
+      },
+      "by_category": {
+        "reasoning": {
+          "best3": 136,
+          "A": 156,
+          "tie": 26
+        },
+        "factual": {
+          "A": 124,
+          "best3": 152,
+          "tie": 12
+        },
+        "creative_synthesis": {
+          "A": 125,
+          "best3": 184,
+          "tie": 15
+        },
+        "analysis": {
+          "A": 115,
+          "best3": 146,
+          "tie": 9
+        }
+      }
+    },
+    "strong_synthesis": {
+      "wins_a": 446,
+      "wins_b": 645,
+      "ties": 108,
+      "errors": 0,
+      "total": 1200,
+      "win_rate_b_pct": 53.8,
+      "win_rate_a_pct": 37.2,
+      "by_judge": {
+        "openai/gpt-4o": {
+          "synth4o": 194,
+          "A": 150,
+          "tie": 56
+        },
+        "google/gemini-2.0-flash-001": {
+          "synth4o": 219,
+          "A": 176,
+          "tie": 5
+        },
+        "qwen/qwen-2.5-72b-instruct": {
+          "synth4o": 232,
+          "A": 120,
+          "tie": 47,
+          "tle": 1
+        }
+      },
+      "by_category": {
+        "reasoning": {
+          "synth4o": 155,
+          "A": 104,
+          "tie": 58,
+          "tle": 1
+        },
+        "analysis": {
+          "A": 104,
+          "synth4o": 151,
+          "tie": 15
+        },
+        "factual": {
+          "A": 101,
+          "synth4o": 166,
+          "tie": 21
+        },
+        "creative_synthesis": {
+          "A": 137,
+          "synth4o": 173,
+          "tie": 14
+        }
+      }
+    }
+  }
+}

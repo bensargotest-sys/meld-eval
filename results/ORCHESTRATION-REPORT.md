@@ -49,9 +49,9 @@ Three experiments testing advanced consensus orchestration patterns beyond simpl
 | Comparison | Winner | Rate |
 |-----------|--------|------|
 | Random 3 vs Solo | **Random 3 wins** | **100%** |
-| All 4 vs Solo | **All 4 wins** | **83%** (17% tie) |
-| Intelligent 2 vs Solo | **Intelligent wins** | **80%** (20% tie) |
-| Random 3 vs Intelligent 2 | **Tied** | **50/50** |
+| All 4 vs Solo | **All 4 wins** | **90%** (10% tie) |
+| Intelligent 2 vs Solo | **Intelligent wins** | **90%** (10% tie) |
+| Random 3 vs Intelligent 2 | **Tied** | **55/45** (random3 slight edge) |
 
 **Finding:**
 - **Random 3 matches intelligent 2.** Curation doesn't beat quantity at this scale.
@@ -69,7 +69,7 @@ Three experiments testing advanced consensus orchestration patterns beyond simpl
 4. **Zero solo wins across any orchestration pattern.** Solo never wins in multi-step (5%), and never wins in iterative (0%) or selection (0%). The consensus advantage is robust across all orchestration approaches.
 
 ## Confidence: 7/10
-- Zero errors in judging (124/124 clean)
+- Zero errors in judging (160/160 clean)
 - Clear, consistent directional signals
 - Moderate sample size (10 questions per experiment)
 - Single judge model (GPT-4o-mini)

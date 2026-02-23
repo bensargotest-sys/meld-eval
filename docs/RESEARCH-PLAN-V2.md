@@ -153,6 +153,34 @@ A network of diverse, independently-operated AI agents produces measurably super
 
 **Product implication:** If C or D significantly outperforms A/B, validates the "Guard" product — a consensus-gated safety check for high-risk agent actions.
 
+## MELD Integration Test Plan (Separate from Research)
+
+Research uses direct API calls to isolate variables. Integration tests validate the product works.
+
+**Prerequisites:**
+- Peer registration across all sqlite branch nodes (peers table currently empty)
+- All 4 nodes on sqlite Fastify (meld-2/3/4 done, meld-5 done)
+- Credit balances initialized
+
+**Integration Tests (run AFTER research Phase 2):**
+
+| ID | Test | What It Validates |
+|----|------|------------------|
+| M1 | Single inference request through network | Peer auth, routing, response delivery |
+| M2 | 10 sequential requests, verify credit settlement | Billing accuracy, balance tracking |
+| M3 | Concurrent requests from 3 different peers | Load handling, no double-spending |
+| M4 | Consensus request routed through MELD vs direct API | Quality equivalence (should match) |
+| M5 | Latency comparison: MELD-routed vs direct API | Overhead measurement |
+| M6 | Node failure: kill one node mid-request | Graceful degradation |
+| M7 | Adversarial: one node returns garbage | Does synthesis filter it? |
+| M8 | 100-request stress test | Stability, memory, connection handling |
+| M9 | Credit exhaustion: what happens at zero balance? | Grace period, rejection behavior |
+| M10 | Full consensus pipeline through network | End-to-end: request → fan-out → collect → synthesize → return |
+
+**Success criteria:** M1-M5 must pass before external tester onboarding. M6-M10 before any production use.
+
+**Sequence:** Complete research T12-T14 → Register peers → Run M1-M5 → Fix issues → Run M6-M10
+
 ## Product Implications (Testing Toward)
 
 | Product Concept | Tests That Inform It |
